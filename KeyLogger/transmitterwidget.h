@@ -12,6 +12,7 @@ class TransmitterWidget : public QWidget
     Q_OBJECT
 public:
     TransmitterWidget(QAbstractButton * button, QLineEdit * edit);
+    bool eventFilter(QObject* obj, QEvent* event);
 
 public slots:
     void setValue(bool h);
