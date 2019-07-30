@@ -8,13 +8,11 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 
     //Intialize widget layout elements
-    //QLabel *label = new QLabel(QApplication::translate("windowlayout", ""));
     QLineEdit *lineEdit = new QLineEdit();
     QHBoxLayout *layout = new QHBoxLayout();
     QPushButton *button = new QPushButton("Activate Key Capture");
 
     //Add elements to widget layout
-    //layout->addWidget(label);
     layout->addWidget(lineEdit);
     layout->addWidget(button);
 
